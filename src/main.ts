@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import 'test-lib/dist/components.css'
+import 'lib/dist/components.css'
 Vue.config.productionTip = false;
 
 new Vue({
