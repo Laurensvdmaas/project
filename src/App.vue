@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Test :msg="msg"></Test>
-    <div @click="msg = '1231234'">
+    <button @click="msg = '1231234'">
       Click here
-    </div>
+    </button>
   </div>
 </template>
 
